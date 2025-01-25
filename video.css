@@ -82,4 +82,11 @@ video#every-video:hover{
         grid-template-columns: repeat(1, 1fr);
     
     }
+    video#every-video{
+        width: 400px;
+        height: 180px;
+    }
+    .video-info *{
+        font-size: .7rem;
+    }
 }
