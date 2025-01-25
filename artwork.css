@@ -9,7 +9,7 @@ section#artwork .container{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url(artwork/MasculineBackground.jpg);
+    background-image: url(MasculineBackground.jpg);
 }
 section#artwork .container h1{
     color: rgb(255, 255, 255);
