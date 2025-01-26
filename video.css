@@ -80,6 +80,7 @@ video#every-video:hover{
 @media (max-width: 600px) {
     .video-area{
         grid-template-columns: repeat(1, 1fr);
+        overflow-wrap: normal;
     
     }
     a.each-video{
