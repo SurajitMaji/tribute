@@ -90,6 +90,9 @@ video#every-video:hover{
         width: 80%;
         height: 180px;
     }
+    .channel-logo img{
+        width:20px;
+    }
     .video-heading{
         font-size:.4rem;
         word-wrap: break-word; /* Break the word when necessary */
