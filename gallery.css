@@ -17,7 +17,6 @@ section#photos .container{
     /* max-width:1200px; */
     margin:0 auto;
     padding:5px 2px 10px 2px;
-    /* background-image:url(images/DSC_0318_2.jpg); */
 
 }
 .container h1{
@@ -86,6 +85,10 @@ figure.card:hover figcaption{
 /*     padding:5px 2px 5px 2px; */
     /* background-image:url(images/DSC_0318_2.jpg); */
 }
+    .gallery{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);  
+    }
     
     figure.card{
         width:40%;
