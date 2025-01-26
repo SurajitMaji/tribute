@@ -85,8 +85,8 @@ video#every-video:hover{
     a.each-video{
         padding: 2px;
         margin: 0px 0px;
-    }every-video
-    video#every-video{
+    }
+    video#every-video src{
         width: 80%;
         height: 180px;
     }
@@ -94,7 +94,7 @@ video#every-video:hover{
         width:20px;
     }
     .video-heading{
-        font-size:.4rem;
+        font-size:.7rem;
         word-wrap: break-word; /* Break the word when necessary */
         overflow-wrap: break-word;  
     }
