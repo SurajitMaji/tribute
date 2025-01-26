@@ -86,16 +86,17 @@ video#every-video:hover{
         padding: 2px;
         margin: 0px 0px;
     }
-    video#every-video src{
-        width: 80%;
+    video#every-video{
+        width: 240px;
         height: 180px;
     }
     .channel-logo img{
-        width:20px;
+        width:24px;
+        height:24px;
     }
     .video-heading{
         font-size:.7rem;
-        word-wrap: break-word; /* Break the word when necessary */
+        word-wrap: break-word;
         overflow-wrap: break-word;  
     }
     .video-info *{
