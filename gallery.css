@@ -83,12 +83,12 @@ figure.card:hover figcaption{
 @media (max-width: 600px) {
     section#photos .container{
     /* margin:0 auto; */
-    padding:5px 2px 5px 2px;
+/*     padding:5px 2px 5px 2px; */
     /* background-image:url(images/DSC_0318_2.jpg); */
 }
     
     figure.card{
-        width:23%;
+        width:40%;
         height:180px;
         margin-bottom:10px;
     }
