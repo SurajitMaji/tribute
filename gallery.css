@@ -88,8 +88,6 @@ figure.card:hover figcaption{
     .gallery{
     display: grid;
     grid-template-columns: repeat(2, 1fr);  
-        justify-content:center;
-        border:2px solid red;
     }
     
     figure.card{
