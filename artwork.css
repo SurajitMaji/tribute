@@ -14,6 +14,11 @@ section#artwork .container{
 section#artwork .container h1{
     color: rgb(255, 255, 255);
 }
+.artwork-area{        
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:center;
+    }
 .every-artwork{
     background-image:url(hanging-picture-frame-clip-art-10.png);
     width: 200px;
