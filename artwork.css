@@ -37,7 +37,13 @@ a.artwork-anchar{
     display: flex;
     justify-content: center;
 }
-
+/* Tablet Styles */
+@media (min-width: 601px) and (max-width: 900px) {
+    .artwork-area{
+        grid-template-columns: repeat(3, 1fr);
+    
+    }
+}
 /* mobile view */
 @media (max-width: 600px) {
    .artwork-area{
