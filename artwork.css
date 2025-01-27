@@ -39,9 +39,10 @@ a.artwork-anchar{
 }
 /* Tablet Styles */
 @media (min-width: 601px) and (max-width: 900px) {
-    .artwork-area{
-        grid-template-columns: repeat(3, 1fr);
-    
+    .artwork-area{        
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:center;
     }
 }
 /* mobile view */
