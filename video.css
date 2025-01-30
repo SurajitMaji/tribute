@@ -89,7 +89,7 @@ video#every-video:hover{
         overflow-x:hidden;
     }
     video#every-video{
-        width: 120px;
+        width: 320px;
         height: 180px;
     }
     .channel-logo img{
