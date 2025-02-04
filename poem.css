@@ -1,0 +1,92 @@
+section#poems{
+    background-color: rgba(248, 242, 233, 0.26);
+}
+
+.poems-area{
+ display: grid;
+ grid-template-columns: repeat(3,1fr);
+}
+a.every-poem{
+    all:unset;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* border-radius: 10px;
+    background-color:rgba(255, 228, 196, 0.26);
+    box-shadow: 5px 5px 12px 2px rgb(114, 76, 0);
+     */
+}
+div.poem-content{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin: 10px;
+    padding: 10px 4px;
+    margin: 10px;
+    padding: 10px 4px;
+    border-radius: 10px;
+    background-color:rgba(255, 228, 196, 0.26);
+    box-shadow: 5px 5px 12px 2px rgb(114, 76, 0);
+    
+
+}
+div.poem-content h3{
+    font-size: 2.4rem;
+    font-family: monospace;
+    color: rgb(71, 42, 5);
+}
+div.poem-content h4{
+    font-family: "Viner Hand ITC";
+    font-size: 1.1rem;
+
+}
+div.poem-content p{
+    font-family: "Pristina";
+    font-size: 1.3rem;
+}
+
+/* Tablet Styles */
+@media (min-width: 681px) and (max-width: 900px) {
+    .poems-area{
+        grid-template-columns: repeat(2, 1fr);
+    
+    }
+}
+
+/* mobile view */
+@media (max-width: 780px) {
+    .poems-area{
+        grid-template-columns: repeat(1, 1fr);
+    
+    }
+    a.every-poem{
+        margin: 10px 0px;
+    }
+
+    div.poem-content{ 
+         display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    div.poem-content h3{
+        font-size: 1.9rem;
+        /* margin-top: 200px; */
+    }
+    div.poem-content h4{
+        font-family: "Viner Hand ITC";
+        /* font-size: 0.9rem; */
+        /* margin:10px 0px 0px 90px; */
+    
+    }
+    div.poem-content p{
+        font-family: "Pristina";
+        font-size: 1.6rem;
+        /* margin:50px 0px 0px 100px; */
+        padding: 20px;
+    }
+}
