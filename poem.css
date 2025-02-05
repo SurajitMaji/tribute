@@ -78,14 +78,14 @@ div.poem-content p{
         /* margin-top: 200px; */
     }
     div.poem-content h4{
-        font-family: "Viner Hand ITC";
+        font-family: Viner Hand ITC;
         /* font-size: 0.9rem; */
         /* margin:10px 0px 0px 90px; */
     
     }
     div.poem-content p{
-        font-family: "Pristina";
-        font-size: 1.6rem;
+        font-family:Pristina;
+        font-size: 1.2rem;
         /* margin:50px 0px 0px 100px; */
         padding: 20px;
     }
