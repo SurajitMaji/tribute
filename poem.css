@@ -39,12 +39,12 @@ div.poem-content h3{
     color: rgb(71, 42, 5);
 }
 div.poem-content h4{
-    font-family: "Viner Hand ITC";
+    font-family: Viner Hand ITC;
     font-size: 1.1rem;
 
 }
 div.poem-content p{
-    font-family: "Pristina";
+    font-family: Pristina;
     font-size: 1.3rem;
 }
 
