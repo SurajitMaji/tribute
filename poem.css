@@ -39,13 +39,14 @@ div.poem-content h3{
     color: rgb(71, 42, 5);
 }
 div.poem-content h4{
-    font-family: Viner Hand ITC;
+    /* font-family:"Edwardian"; */
     font-size: 1.1rem;
 
 }
 div.poem-content p{
-    font-family: Pristina;
-    font-size: 1.3rem;
+   
+  font-family: "Borel", serif;
+    font-size: 0.8rem;
 }
 
 /* Tablet Styles */
@@ -75,18 +76,12 @@ div.poem-content p{
     }
     div.poem-content h3{
         font-size: 1.9rem;
-        /* margin-top: 200px; */
     }
     div.poem-content h4{
-        font-family: Viner Hand ITC;
-        /* font-size: 0.9rem; */
-        /* margin:10px 0px 0px 90px; */
+        font-size: 0.9rem;
     
     }
     div.poem-content p{
-        font-family:Pristina;
-        font-size: 1.2rem;
-        /* margin:50px 0px 0px 100px; */
         padding: 20px;
     }
 }
