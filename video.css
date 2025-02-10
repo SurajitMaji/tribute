@@ -16,8 +16,9 @@ a.each-video{
     justify-content: center;
     padding: 2px;
     margin: 10px 15px;
-    width:33%;
-    background-color:pink;
+    width:30%;
+    background-color:pink;;
+        overflow-x:hidden;
 }
 .video-block{
     display: flex;
@@ -91,7 +92,6 @@ video#every-video:hover{
     a.each-video{
         padding: 2px;
         margin: 0px 0px;
-        overflow-x:hidden;
     }
     video#every-video{
         width: 320px;
