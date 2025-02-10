@@ -16,6 +16,7 @@ a.each-video{
     justify-content: center;
     padding: 2px;
     margin: 10px 15px;
+    width:33%;
 }
 .video-block{
     display: flex;
