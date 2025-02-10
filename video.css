@@ -17,6 +17,7 @@ a.each-video{
     padding: 2px;
     margin: 10px 15px;
     width:33%;
+    background-color:pink;
 }
 .video-block{
     display: flex;
