@@ -16,7 +16,7 @@ a.each-video{
     justify-content: center;
     padding: 2px;
     margin: 10px 15px;
-    width:30%;
+    width:33.3%;
         overflow-x:hidden;
 }
 .video-block{
@@ -80,7 +80,7 @@ video#every-video:hover{
     
     }
     a.each-video{
-        width:50%;
+        width:30%;
         
     }
 }
