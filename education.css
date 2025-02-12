@@ -1,15 +1,7 @@
 /* General Styles */
-body {
-    background-color: #ff87d1;
-    color: #fff;
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-}
 
 /* Header */
-.header {
+section.education .header {
     padding: 40px;
     text-align: center;
     position: relative;
@@ -27,12 +19,12 @@ body {
     clip-path: polygon(50% 0%, 100% 100%, 0% 100%);
 }
 
-h1 {
+section.education h1 {
     font-size: 36px;
     font-weight: bold;
 }
 
-h2 {
+ section.education h2 {
     font-size: 18px;
     color: #ccc;
 }
@@ -61,7 +53,7 @@ h2 {
     background-size: fit-content;
 }
 
-.content {
+ section.education .content {
     position: relative;
     background: #140101b6;
     padding: 15px;
@@ -76,7 +68,7 @@ h2 {
     color: #FFA07A;
 }
 
-.content p {
+section.education .content p {
     font-size: 14px;
     color: #bbb;
 }
@@ -96,7 +88,7 @@ h2 {
 
 /* Responsive Design */
 @media screen and (max-width: 600px) {
-    .content {
+  section.education .content {
         width: 80%;
     }
 }
