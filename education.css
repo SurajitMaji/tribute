@@ -9,7 +9,7 @@ section.education .header {
 }
 
 .badge {
-    width: 50px;
+   /* width: 50px;
     height: 50px;
     background-color: #4A90E2;
     position: absolute;
@@ -17,7 +17,8 @@ section.education .header {
     left: 50%;
     transform: translateX(-50%);
     clip-path: polygon(50% 0%, 100% 100%, 0% 100%);
-}
+*/
+    }
 
 section.education h1 {
     font-size: 36px;
@@ -55,7 +56,7 @@ section.education h1 {
 
  section.education .content {
     position: relative;
-    background: #140101b6;
+    background:#140101b6;
     padding: 15px;
     margin: 10px;
     border-radius: 5px;
@@ -63,12 +64,12 @@ section.education h1 {
     opacity: 1;
 }
 
-.content h3 {
+.content h3{
     margin: 0;
     color: #FFA07A;
 }
 
-section.education .content p {
+section.education .content p{
     font-size: 14px;
     color: #bbb;
 }
