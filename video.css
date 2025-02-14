@@ -24,7 +24,7 @@ a.each-video{
     justify-content: center;
 }
 video#every-video{
-    width: 60%;
+    width: 100%;
     height: 230px;
     object-fit: cover;
     display: block;
