@@ -56,4 +56,8 @@ a.artwork-anchar{
         grid-template-columns: repeat(1, 1fr);
     
     }
+    section#artwork .container{
+        width:90%;
+        box-shadow:10px 10px 2px solid black;
+    }
 }
