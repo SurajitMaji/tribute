@@ -58,13 +58,13 @@ a.artwork-anchar{
     }
     .every-artwork{
         width:90%;
-        height: 110%;
+        height: 150%;
         box-shadow:10px 10px 2px 5px solid white;
     }
     .every-artwork img{
-    margin-top: 72px;
+    margin-top: 75px;
     margin-left: 0px;
-    width:85%;
+    width:80%;
     height: 80%;
     
     }
