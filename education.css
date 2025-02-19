@@ -86,7 +86,15 @@ section.education .content p{
     transform: translateX(-50%);
     z-index: -1;
 }
+.timeline-items div.right p {
+    
+}
 
+img.school{
+    width: 100%;
+    height: 800%;
+    object-fit: cover
+}
 /* Responsive Design */
 @media screen and (max-width: 600px) {
   section.education .content {
