@@ -97,7 +97,7 @@ img.school{
   height: 100vh;
   object-fit: cover;
   display: block;
-   /* overflow:fit-content;*/
+ overflow: scroll;
     
 }
 /* Responsive Design */
