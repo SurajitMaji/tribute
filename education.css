@@ -87,7 +87,7 @@ section.education .content p{
     z-index: -1;
 }
 .timeline-items div.right p {
-    
+    border:2px solid black;
 }
 
 img.school{
