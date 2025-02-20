@@ -89,12 +89,13 @@ section.education .content p{
 .timeline-item div.right p {
     border:2px solid black;
     width: 100%;
+    height:70%;
 }
 
 img.school-img{
 
   width: 90%;
-  height: 100vh;
+  height: 100%;
   object-fit: cover;
   display: block;
  overflow: scroll;
