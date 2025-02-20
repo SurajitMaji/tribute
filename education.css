@@ -88,7 +88,7 @@ section.education .content p{
 }
 .timeline-item div.right p {
     border:2px solid black;
-    width: 100vw;
+    width: 100%;
 }
 
 img.school{
