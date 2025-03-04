@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.cover-photo img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.profile-info {
+    text-align: center;
+    margin-top: -100px;
+    position: relative;
+}
+
+.profile-picture img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 4px solid white;
+}
+
+.name {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.bio {
+    color: #555;
+}
+
+.posts {
+    margin-top: 20px;
+}
+
+.post {
+    background: white;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.like-button {
+    background-color: #4267B2;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.like-button:hover {
+    background-color: #365899;
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+    .profile-picture img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .name {
+        font-size: 20px;
+    }
+
+    .bio {
+        font-size: 14px;
+    }
+}
+
+
+
+.post-header {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .profile-pic {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+        }
+        .post p {
+            margin: 10px 0;
+        }
+        .post-image {
+            width: 100%;
+            border-radius: 5px;
+        }
+        .post-actions {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 10px;
+        }
+        .post-actions img {
+            cursor: pointer;
+            padding: 5px 10px;
+            width: 50px;
+        }
+        .post-actions button:hover {
+            text-decoration: underline;
+        }
+        @media (max-width: 600px) {
+            .container {
+                width: 90%;
+            }
+        }
+    </style>
+    <title>Profile Page</title>
+</head>
+<body>
+    <div class="container">
+        <div class="cover-photo">
+            <img src="DSC00340.JPG" alt="Cover Photo">
+        </div>
+        <div class="profile-info">
+            <div class="profile-picture">
+                <img src="IMG-20240618-WA0007~3.jpg" alt="Profile Picture">
+            </div>
+            <h1 class="name">Sreyashree Khanra</h1>
+            <p class="bio">Software Developer | Tech Enthusiast | Chili Lover</p>
+        </div>
+        <div class="posts">
+            <h2>Posts</h2>
+            <div class="post">
+                <div class="post-header">
+                    <img src="IMG-20240618-WA0007~3.jpg" alt="Profile" class="profile-pic">
+                    <div>
+                        <h4>Sreyashree Khanra</h4>
+                        <p>21 Dec 2024</p>
+                    </div>
+                </div>
+                <p>VUCS ❤️ 
+                    .
+                    .
+                    .
+                    .
+                    .
+                    .
+                    .
+                    .
+                    20.12.24
+                    🙂😌😊 ☺️😄 ☺️
+                    #VidyasagarUniversity  #DepartmenOfComputerScience 
+                    #MCA #Midnapore #friends #picnic</p>
+                <img src="IMG-20241221-WA0011.jpg" alt="Champions" class="post-image">
+                <div class="post-actions">
+                    <img src="icons8-facebook-like-48.png" alt="" class="like">
+                    <img src="icons8-comment-50.png" alt="" class="like">
+                    <img src="icons8-whatsapp-50.png" alt="" class="like">
+                    <img src="icons8-share-50.png" alt="" class="like">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
