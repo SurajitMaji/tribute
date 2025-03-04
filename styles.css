@@ -81,6 +81,18 @@ form input, form textarea {
     border: 1px solid #ccc;
     border-radius: 5px;
 }
+footer p{
+    padding: 10px;
+
+}
+footer p a{
+    all:unset;
+    cursor: pointer;
+    transition: .5s;
+}
+footer p a:hover{
+    color:rgb(9, 255, 0);
+}
 
 form button {
     padding: 10px;
