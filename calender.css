@@ -70,6 +70,8 @@
     cursor: pointer;
     border: .5px solid black;
     position: relative;
+    display:flex;
+  justify-content:center;
   }
  
   .days-grid div:hover {
@@ -109,7 +111,9 @@
   .days-grid .inactive {
     color: #bbb;
   }
-  
+   .days-grid div.empty{    
+    all: unset;
+   }
 /* Mobile Styles */
 @media (max-width: 600px) {
   .schedule{
