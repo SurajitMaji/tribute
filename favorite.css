@@ -1,18 +1,11 @@
 /* General Styles */
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f9f9f9;
-    text-align: center;
-    margin: 0;
-    padding: 20px;
-}
 
 /* Container */
 .favorites-container {
     background: white;
     padding: 20px;
     max-width: 90%;
-    width: 400px;
+   /* width: 400px;*/
     margin: auto;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -20,11 +13,11 @@ body {
 }
 
 /* Headings */
-h2 {
+#favorite h2 {
     color: #333;
 }
 
-.category {
+#favorite .category {
     background: #ff66ff;
     padding: 10px;
     margin: 10px 0;
@@ -33,24 +26,24 @@ h2 {
     transition: 0.3s;
 }
 
-.category:hover {
+#favorite .category:hover {
     background:#ff3399;
 }
 
-h3 {
+#favorite h3 {
     margin: 0;
     color: #fff;
 }
 
 /* List Items */
-ul {
+#favorite ul {
     list-style: none;
     padding: 0;
     margin: 10px 0;
     display: none; /* Initially hidden */
 }
 
-li {
+#favorite li {
     background: #fff3e0;
     padding: 10px;
     margin: 5px 0;
@@ -61,7 +54,7 @@ li {
     flex-wrap: wrap;
 }
 
-li img {
+#favorite li img {
     width: 40px;
     height: 40px;
     margin-right: 10px;
@@ -70,7 +63,7 @@ li img {
 }
 
 /* User Input Section */
-.user-input {
+#favorite .user-input {
     margin-top: 20px;
     padding: 15px;
     background: #e0f7fa;
@@ -78,7 +71,7 @@ li img {
     animation: fadeIn 1s ease-in-out;
 }
 
-input, button {
+#favorite input, button {
     margin: 5px;
     padding: 10px;
     border-radius: 5px;
@@ -87,54 +80,54 @@ input, button {
     max-width: 300px;
 }
 
-button {
+#favorite button {
     background: #00796b;
     color: white;
     cursor: pointer;
 }
 
-button:hover {
+#favorite button:hover {
     background: #004d40;
 }
 
 /* Responsive Design */
 @media (max-width: 768px) {
-    .favorites-container {
+   #favorite  .favorites-container {
         width: 90%;
     }
 
-    li {
+   #favorite  li {
         flex-direction: column;
         align-items: center;
     }
 
-    li img {
+   #favorite li img {
         margin-bottom: 5px;
     }
 
-    input, button {
+   #favorite input, #favorite button {
         width: 100%;
     }
 }
 
 @media (max-width: 480px) {
-    .favorites-container {
+    #favorite .favorites-container {
         padding: 15px;
     }
 
-    h2 {
+    #favorite h2 {
         font-size: 1.5em;
     }
 
-    h3 {
+    #favorite h3 {
         font-size: 1.2em;
     }
 
-    li {
+    #favorite li {
         font-size: 0.9em;
     }
 
-    input, button {
+    #favorite input, #favorite button {
         font-size: 0.9em;
     }
 }
