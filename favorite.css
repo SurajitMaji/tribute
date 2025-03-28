@@ -1,11 +1,11 @@
 /* General Styles */
 
 /* Container */
-.favorites-container {
+#favorite .favorites-container {
     background: white;
     padding: 20px;
-    max-width: 90%;
-   /* width: 400px;*/
+   /* max-width: 90%;
+    width: 400px;*/
     margin: auto;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -18,7 +18,7 @@
 }
 
 #favorite .category {
-    background: #ff66ff;
+    background: #ff99ff;
     padding: 10px;
     margin: 10px 0;
     border-radius: 5px;
@@ -27,7 +27,7 @@
 }
 
 #favorite .category:hover {
-    background:#ff3399;
+    background:#ff99c2;
 }
 
 #favorite h3 {
@@ -44,7 +44,7 @@
 }
 
 #favorite li {
-    background: #fff3e0;
+    background: #99ffff;
     padding: 10px;
     margin: 5px 0;
     border-radius: 5px;
@@ -71,7 +71,7 @@
     animation: fadeIn 1s ease-in-out;
 }
 
-#favorite input, button {
+#favorite input, #favorite button {
     margin: 5px;
     padding: 10px;
     border-radius: 5px;
