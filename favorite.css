@@ -92,7 +92,7 @@
 
 /* Responsive Design */
 @media (max-width: 768px) {
-   #favorite  .favorites-container {
+   #favorite .favorites-container {
         width: 90%;
     }
 
@@ -112,7 +112,7 @@
 
 @media (max-width: 480px) {
     #favorite .favorites-container {
-        padding: 15px;
+        padding:0px;
         width:100%;
     }
 
