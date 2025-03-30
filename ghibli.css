@@ -20,7 +20,7 @@ section#ghibli  .ghibli-area img {
     width: 100%;
     height: auto;
     border-radius: 8px;
-    box-shadow: 2px 2px 2px 5px #666666;
+    box-shadow: 2px 2px 2px 2px #ebebe0;
     transition: transform 0.2s;
     margin:0px 5px;
 }
