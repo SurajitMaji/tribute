@@ -7,7 +7,7 @@ section#ghibli {
 }
 section#ghibli h1{
      text-align:center;
-    color:#ffbf80;
+    color:#ffe6c;
 }
 section#ghibli .ghibli-area {
     display: grid;
@@ -20,7 +20,7 @@ section#ghibli  .ghibli-area img {
     width: 100%;
     height: auto;
     border-radius: 8px;
-    box-shadow: 2px 2px 2px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 2px 2px 2px 5px #666666;
     transition: transform 0.2s;
     margin:0px 5px;
 }
