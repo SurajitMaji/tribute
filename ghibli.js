@@ -8,7 +8,7 @@ const ghibli_area = document.getElementById('ghibli_area');
 
 images.forEach(image => {
     const imgElement = document.createElement('img');
-    imgElement.src = `ghibli/${image}`; // Update the path to your images
+    imgElement.src = `${image}`; // Update the path to your images
     imgElement.alt = image.split('.')[0]; // Use the image name without extension as alt text
     ghibli_area.appendChild(imgElement);
 });
