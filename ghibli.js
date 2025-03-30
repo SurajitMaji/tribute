@@ -8,7 +8,8 @@ const images = [
     'pt22e5fqe5qkdthn3fuvb8vz2.png',
     'dwczfk1hyemnma9td9mi2hdd2.png',
     '9dphad55rl9o60w383p9kqf0.png.png',*/
-    'b1a2a0c1-8fc4-4ecb-a093-c0669baec952.png'
+    'b1a2a0c1-8fc4-4ecb-a093-c0669baec952.png',
+    'imagegope.jpg'
 ];
 
 const ghibli_area = document.getElementById('ghibli_area');
