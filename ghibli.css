@@ -20,9 +20,9 @@ section#ghibli  .ghibli-area img {
     width: 100%;
     height: auto;
     border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 2px 2px 2px 5px rgba(0, 0, 0, 0.2);
     transition: transform 0.2s;
-    box-shadow:5px 5px 2px 10px;
+    margin:0px 5px;
 }
 
 .ghibli-area img:hover {
