@@ -18,11 +18,13 @@ section#ghibli .ghibli-area {
 
 section#ghibli  .ghibli-area img {
     width: 100%;
-    height: auto;
+    height: 100%;
     border-radius: 8px;
     box-shadow: 2px 2px 2px 2px #ebebe0;
     transition: transform 0.2s;
     margin:0px 5px;
+    object-fit: cover;
+    
 }
 
 .ghibli-area img:hover {
