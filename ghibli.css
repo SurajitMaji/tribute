@@ -1,0 +1,26 @@
+section#ghibli {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(ghibli/523bc970f8d82134e90e3bbf52886fc6.jpg);
+    border-radius: 15px;
+}
+
+section#ghibli  .ghibli-area {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+    padding: 10px;
+}
+
+section#ghibli  .ghibli-area img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+}
+
+.ghibli-area img:hover {
+    transform: scale(1.05);
+}
