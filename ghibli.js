@@ -2,7 +2,8 @@ const images = [
     '2eb3ac41-1eba-48c7-b145-421c6047feb3.png',
     'image3.jpg',
     'insidetrain.png',
-    'imagefoodfestival.jpg'
+    'imagefoodfestival.jpg',
+    'Web_Photo_Editor.jpg'
 ];
 
 const ghibli_area = document.getElementById('ghibli_area');
