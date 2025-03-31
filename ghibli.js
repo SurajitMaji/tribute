@@ -1,15 +1,11 @@
 const images = [
     '2eb3ac41-1eba-48c7-b145-421c6047feb3.png',
-    'image3.jpg',
+    '5504a716-9db0-42d5-bbb1-9d266bdaac62.png',
     'insidetrain.png',
     'imagefoodfestival.jpg',
-   /* 'Web_Photo_Editor.jpg',
-    'xbllwt6lpo6tb8t79r0vhrto.png.png',
-    'pt22e5fqe5qkdthn3fuvb8vz2.png',
-    'dwczfk1hyemnma9td9mi2hdd2.png',
-    '9dphad55rl9o60w383p9kqf0.png.png',*/
     'b1a2a0c1-8fc4-4ecb-a093-c0669baec952.png',
-    'imagegope.jpg'
+    'imagegope.jpg',
+    'f5d480ac-245f-4ded-9d3c-2131463ca04e.png'
 ];
 
 const ghibli_area = document.getElementById('ghibli_area');
