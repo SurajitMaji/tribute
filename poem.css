@@ -1,5 +1,6 @@
 section#poems{
     background-color: rgba(248, 242, 233, 0.26);
+    background-image: url(wp4356845.jpg);
 }
 
 .poems-area{
@@ -30,6 +31,7 @@ div.poem-content{
     border-radius: 10px;
     background-color:rgba(255, 228, 196, 0.26);
     box-shadow: 5px 5px 12px 2px rgb(114, 76, 0);
+    background-image: url(wallpaper2you_308010.jpg);
     
 
 }
@@ -43,10 +45,11 @@ div.poem-content h4{
     font-size: 1.1rem;
 
 }
-div.poem-content p{
-   
+div.poem-content p{   
   font-family: "Borel", serif;
-    font-size: 0.8rem;
+    font-size: 1.2rem;
+    color: rgb(247, 247, 247);
+    transition: .4s;
 }
 
 /* Tablet Styles */
