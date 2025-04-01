@@ -85,5 +85,6 @@ div.poem-content p{
     }
     div.poem-content p{
         padding: 20px;
+    font-size: 0.8rem;
     }
 }
