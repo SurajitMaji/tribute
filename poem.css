@@ -57,6 +57,9 @@ div.poem-content p{
         grid-template-columns: repeat(2, 1fr);
     
     }
+    div.poem-content p{
+        padding: 10px;
+    }
 }
 
 /* mobile view */
