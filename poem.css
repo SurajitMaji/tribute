@@ -47,8 +47,8 @@ div.poem-content h4{
 div.poem-content p{   
   font-family: "Borel", serif;
     font-size: 1.2rem;
-    color: rgb(247, 247, 247);
-    transition: .4s;
+    color:rgb(255, 0, 60);
+    
 }
 
 /* Tablet Styles */
