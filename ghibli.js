@@ -9,10 +9,15 @@ const images = [
     '15860be5-9fab-4364-9856-94f82925e60a.jpg',
     '588b9af3-d01d-48d0-9270-746c8aa62f9e2.png',
     '24627e09-3e33-4774-a525-02373652325c.png',
-    '22654731-9e8e-4922-844d-1c1e488a03832.png',
+    //'22654731-9e8e-4922-844d-1c1e488a03832.png',
     'b6e3ff3b-cd7a-4258-8d34-e32cbfd0dfee.png',
     'bf5c22e0-2acd-4026-84de-b04e9401a1c8.png',
-    '7951a4f3-0ca8-48ca-b67c-95196e79ca31.png'
+    '7951a4f3-0ca8-48ca-b67c-95196e79ca31.png',
+    '1c176a63-89a8-4952-94d4-ce1e5c100404.png',
+    'afd9ea48-dc2c-4efe-b162-617bca80b919.png',
+    'a3ba1cdf-0b2b-433d-a644-84d894808044.png',
+    'af185d83-dadc-4f31-8e38-a21ae2c1d293.png',
+    '1f3794e8-45c7-4226-86cc-21638ebc3470.png'
 ];
 
 const ghibli_area = document.getElementById('ghibli_area');
