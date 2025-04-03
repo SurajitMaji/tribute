@@ -17,7 +17,8 @@ const images = [
     'afd9ea48-dc2c-4efe-b162-617bca80b919.png',
     'a3ba1cdf-0b2b-433d-a644-84d894808044.png',
     'af185d83-dadc-4f31-8e38-a21ae2c1d293.png',
-    '1f3794e8-45c7-4226-86cc-21638ebc3470.png'
+    '1f3794e8-45c7-4226-86cc-21638ebc3470.png',
+    '760aab04-1709-4928-ab5f-f75c238f9fdb.png'
 ];
 
 const ghibli_area = document.getElementById('ghibli_area');
