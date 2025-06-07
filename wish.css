@@ -1,0 +1,72 @@
+   .wish-area {
+        font-family: 'EB Garamond', serif;
+        background-color: rgba(255, 252, 234, 0.771);
+        color: rgb(91, 91, 91);
+    }
+    .wish-area img{
+        width: 100px;
+    }
+    .wish-area .wish-head{
+        display: flex;
+        justify-content: center;
+    }
+    img.top-image{
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        margin: 0px 25px;
+    }
+    .top-left{
+        left: 0px;
+    }
+    .top-right{
+        right: 0;
+    }
+    .wish-top{
+        padding: 10px 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .wish-top h1{
+        font-size: 2.8rem;
+        font-weight:lighter;
+    }
+     .wish-top p{
+        display: flex;
+        justify-content: center;
+        font-size: .99rem;
+        font-style: italic;
+     }
+     .wish-content{
+        padding: 10px;
+        margin: 25px 5px;
+        display: flex;
+        flex-wrap: wrap;
+        /* flex-direction: column; */
+        justify-content: center;
+     }
+     .wish-content div {
+        padding: 10px;
+        margin: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.2rem;
+     }
+     
+     .wish-area .bottom-flower{
+        display: flex;
+        justify-content: center;
+     }
+     img.bottom-flower{
+        width: 300px;
+
+     }
+    @media (max-width: 768px) {
+      img.top-image{
+        width: 100px;
+        height: 100px;
+    }
+    }
