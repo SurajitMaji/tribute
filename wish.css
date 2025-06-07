@@ -69,4 +69,13 @@
         width: 100px;
         height: 100px;
     }
+       .wish-content{
+        padding: 0px;
+        margin: 0px;
+     }
+     .wish-content div {
+        padding: 0px;
+        margin: 0px;
+        font-size: 1rem;
+     }
     }
