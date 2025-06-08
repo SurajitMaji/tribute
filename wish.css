@@ -23,7 +23,6 @@
         right: 0;
     }
     .wish-top{
-        padding: 10px 0px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -41,7 +40,7 @@
      }
      .wish-content{
         padding: 10px;
-        margin: 25px 5px;
+        margin: 15px 5px;
         display: flex;
         flex-wrap: wrap;
         /* flex-direction: column; */
