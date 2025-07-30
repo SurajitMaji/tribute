@@ -1,12 +1,17 @@
 body{
-    background-color: black;
+    text-align: center;
+    background-image:url(./images/img0nrrr4qu6.jpg);
 }
 .container {
       font-family: "Roboto", sans-serif;
-      background-color: #fabebe;
-      border: 1px solid rgb(91, 226, 46);
+      border: 2px solid rgb(6, 6, 6);
       display: flex;
       justify-content: center;
+    }
+    .relative{
+      background-color: #fbcece;
+        margin: 40px;
+        border: 30px solid black;
     }
     h1, h2 {
       font-family: "Playfair Display", serif;
