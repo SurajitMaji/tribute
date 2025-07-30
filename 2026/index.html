@@ -1,1 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>A Journey With You</title>
+  <link rel="stylesheet" href="index.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto&display=swap" rel="stylesheet" />
+ 
+</head>
+<body>
+<div class="container relative min-h-screen flex flex-col items-center px-6 py-10 sm:py-16">
+ 
+  <h1 class="text-[2.5rem] sm:text-[3.5rem] text-[#b65a52] font-serif font-semibold text-center leading-tight max-w-md sm:max-w-xl">
+    A JOURNEY<br />WITH YOU
+  </h1>
+  <p class="text-[#1a1a1a] text-base sm:text-lg mt-2 mb-6 sm:mb-8 text-center max-w-xs sm:max-w-md">
+    Countdown to your special day
+  </p>
 
+  <!-- Countdown Timer -->
+  <div id="countdown" class="flex justify-center space-x-6 sm:space-x-12 mb-10 text-center"></div>
+
+  <!-- Interactive Sections -->
+  <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-md w-full">
+    <div onclick="toggleSection('memory')" class="cursor-pointer bg-[#f9e7d9] p-5 rounded-lg shadow-md text-center">
+      <img src="https://storage.googleapis.com/a1aa/image/967297b6-9b0c-4ee0-56f8-bac305245744.jpg" class="w-14 h-14 mx-auto mb-2" alt="Memory Wall">
+      <h2 class="text-lg font-serif font-semibold text-[#1a1a1a]">Digital Memory Wall</h2>
+    </div>
+    <div onclick="toggleSection('reasons')" class="cursor-pointer bg-[#fff7dc] p-5 rounded-lg shadow-md text-center">
+      <img src="https://storage.googleapis.com/a1aa/image/73f51163-4d7a-46ca-e07c-ab14d28705d4.jpg" class="w-14 h-14 mx-auto mb-2" alt="Reasons Why">
+      <h2 class="text-lg font-serif font-semibold text-[#1a1a1a]">Reasons Why You’re Special</h2>
+    </div>
+    <div onclick="toggleSection('creative')" class="cursor-pointer bg-[#fff7dc] p-5 rounded-lg shadow-md text-center">
+      <img src="https://storage.googleapis.com/a1aa/image/2d6d599d-62e5-4620-da9d-813a386a956d.jpg" class="w-14 h-14 mx-auto mb-2" alt="Creative Zone">
+      <h2 class="text-lg font-serif font-semibold text-[#1a1a1a]">Creative Zone</h2>
+    </div>
+    <div onclick="toggleSection('songs')" class="cursor-pointer bg-[#f9e7d9] p-5 rounded-lg shadow-md text-center">
+      <img src="https://storage.googleapis.com/a1aa/image/35a7bb2c-df2e-454a-2c65-f695539275b2.jpg" class="w-14 h-14 mx-auto mb-2" alt="Songs">
+      <h2 class="text-lg font-serif font-semibold text-[#1a1a1a]">Songs That Remind Me of You</h2>
+    </div>
+    <div onclick="toggleSection('timeline')" class="cursor-pointer bg-[#f9e7d9] p-5 rounded-lg shadow-md text-center">
+      <h2 class="text-lg font-serif font-semibold text-[#1a1a1a]">Birthday Timeline</h2>
+    </div>
+    <div onclick="toggleSection('wishes')" class="cursor-pointer bg-[#fff7dc] p-5 rounded-lg shadow-md text-center">
+      <img src="https://storage.googleapis.com/a1aa/image/8503a9d1-d3eb-4e90-0697-b36c05fdfcc2.jpg" class="w-14 h-14 mx-auto mb-2" alt="Wishes">
+      <h2 class="text-lg font-serif font-semibold text-[#1a1a1a]">Wishes from Around the World</h2>
+    </div>
+  </div>
+
+  <!-- Section Content Areas -->
+  <div id="memory" class="content-section mt-8 max-w-md text-center">Share and view lovely memories here!
+    <img src="./images/172f7893-a53f-4cfb-b1d6-fb87f033cbf9.png" alt="" srcset="">
+  </div>
+  <div id="reasons" class="content-section mt-8 max-w-md text-center">You’re special because...</div>
+  <div id="creative" class="content-section mt-8 max-w-md text-center">Draw, write, or create something!</div>
+  <div id="songs" class="content-section mt-8 max-w-md text-center">Listen to our playlist!</div>
+  <div id="timeline" class="content-section mt-8 max-w-md text-center">Your life in beautiful moments.</div>
+  <div id="wishes" class="content-section mt-8 max-w-md text-center">See your greetings on the globe!</div>
+
+</div>
+  <!-- JavaScript for Countdown & Section Toggle -->
+   <script src="index.js"></script>
+  <script>
+    
+  </script>
+
+  
+</body>
+</html>

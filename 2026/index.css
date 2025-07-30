@@ -1,0 +1,19 @@
+body{
+    background-color: black;
+}
+.container {
+      font-family: "Roboto", sans-serif;
+      background-color: #fabebe;
+      border: 1px solid rgb(91, 226, 46);
+      display: flex;
+      justify-content: center;
+    }
+    h1, h2 {
+      font-family: "Playfair Display", serif;
+    }
+    .content-section {
+      display: none;
+    }
+    .active {
+      display: block;
+    }
