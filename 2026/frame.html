@@ -1,0 +1,124 @@
+<html>
+<head>
+    <title>Sreyashree Khanra</title>
+    <link href="https://unpkg.com/tailwindcss@1.9.6/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+</head>
+<body class="bg-[rgba(15,15,15)]">
+    <div class="content  text-white m-[30px]">
+        <div class="frame 
+            p-[10px]
+            border-[3px]
+            border-red 
+            m-[10px]
+            md:p-[2px]
+            md:border-[6px] 
+            md:m-[4px]">
+            <div class="first-row grid grid-cols-2 gap-4 items-center">
+                <div class="flex flex-col items-center justify-center 
+                ">
+                    <div class="month-name text-3xl m-5 p-5" >June, 2002</div>
+                    <div class="flex justify-around 
+                     grid grid-cols-7 gap-2 
+                     text-2xl
+                     w-full">
+                        <span class="
+                        flex items-center justify-center 
+                        ">S</span>
+                        <span class="
+                        flex items-center justify-center 
+                        ">M</span>
+                        <span class="
+                        flex items-center justify-center 
+                        ">T</span>
+                        <span class="
+                        flex items-center justify-center 
+                        ">W</span>
+                        <span class="
+                        flex items-center justify-center 
+                        ">T</span>
+                        <span class="
+                        flex items-center justify-center 
+                        ">F</span>
+                        <span class="
+                        flex items-center justify-center 
+                        ">S</span>
+                    </div>
+                    <div class="days flex justify-around 
+                     flex justify-around 
+                     grid grid-cols-7 gap-2 
+                     text-2xl
+                     mt-2
+                     w-full
+                     " id="month">
+                        
+                    </div>
+                </div>
+                <div class="flex-col flex items-center justify-center">
+                    <div class="image border-[4px] border-white m-[10px]">
+                        <img src="./assets/20241203-031048~2.jpg" alt="" class="w-full h-full object-cover ">
+                    </div>
+                    <div class="image border-white border-[4px] m-[10px] ">
+                        <img src="./assets/IMG-20250702-WA0034.jpg" alt="" class="w-full h-full object-cover ">                        
+                    </div>
+                </div>
+
+            </div>
+            <div class="second-row grid grid-cols-2 gap-4 items-center">
+                <div class="flex flex-col">
+                    <div class="grid grid-cols-2 ">
+                        <div class="image border-[4px] border-white m-[10px] ">
+                            <img src="./assets/IMG_20240327_173412.jpg" alt="" class="w-full h-full object-cover ">
+                        </div>
+                        <div class="image border-white border-[4px] m-[10px]">
+                            <img src="./assets/IMG_20241003_133318~2.jpg" alt="" class="w-full h-full object-cover ">                        
+                        </div>
+                    </div>
+                    <div class="font-serif text-9xl italic 
+                    font-ui-sans-serif
+                    sm:text-3xl
+                    flex items-center justify-center                   
+                    p-20 m-2
+                    flex justify-center
+                    text-4xl font-bold bg-gradient-to-r from-blue-600 via-purple-500 via-pink-500 via-red-500 to-green-500 text-transparent bg-clip-text" >
+                        Happy Birthday to you, make your day remarkable
+                    </div>
+                </div>
+                
+                <div class="image border-white border-[4px] m-[10px] h-100 ">
+                    <img src="./assets/DSC_0318.JPG" alt="" class="w-full h-full object-cover ">                        
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var empty_days=6;
+        var total_days=30;
+        let output=``;
+        var special_date=17;
+        for(let i=0;i<empty_days;i++){
+            output+=`<span></span>`;
+        }
+        for(let i=1;i<=total_days;i++){
+            if(i==special_date){
+                output+=`<span class="bg-[url('')]
+                 bg-cover bg-center 
+                 w-full h-full
+                    flex items-center justify-center 
+                  transform scale-75">
+                  <img src="./assets/r.png" class="">
+                  </span>`;
+            }
+            else{
+                output+=`<span class="
+                    flex items-center justify-center 
+                ">`+i+`</span>`;
+            }
+        }
+        document.getElementById("month").innerHTML=output;
+
+    </script>
+</body>
+</html>
