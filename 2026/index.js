@@ -36,8 +36,4 @@ const targetDate = new Date("2026-06-17T00:00:00").getTime();
       window.scrollTo({ top: document.getElementById(id).offsetTop - 40, behavior: 'smooth' });
     }
 
-   fetch('welcome.html')
-    .then(response => response.text())
-    .then(data => {
-      document.getElementById('memory').innerHTML = data;
-    });
+   
